@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+		    .flex-container {
+		        display: flex;
+		        flex-direction: row;
+		        flex-wrap: wrap;
+		        width: 1200px;
+		        height: 640px;
+/* 		        background-color: lightstee; */
+				background-color: aqua;
+		    }
+		    .flex-container .flex-item {
+		        width: 280px;
+		        height: 300px;
+		        margin: 10px;
+		        background-color:lightgrey;
+		    }
+/* 			.flex1 {
+				background: url(img/图片01.png) no-repeat;
+				width: 280px;
+				height: 300px;
+				margin: 10px;
+				background-color:lightsalmon;
+				background-size:100% 100%;
+			} */
+			.flex1 {
+				width: 280px;
+				height: 300px;
+				border: #000 solid 0px;
+				margin: 50px auto;
+				margin: 10px;
+			}
+			.flex1 img{
+				cursor: pointer;
+				transition: all 0.6s;
+			}
+			.flex1 img:hover{
+				transform: scale(1.4);
+			}
+			/* .flex2 {
+				background: url(img/图片02.png) no-repeat;
+				width: 280px;
+				height: 300px;
+				margin: 10px;
+				background-color:lightsalmon;
+				background-size:100% 100%;
+			}
+			.flex3 {
+				background: url(img/图片03.png) no-repeat;
+				width: 280px;
+				height: 300px;
+				margin: 10px;
+				background-color:lightsalmon;
+				background-size:100% 100%;
+			}
+			.flex4 {
+				background: url(img/图片04.png) no-repeat;
+				width: 280px;
+				height: 300px;
+				margin: 10px;
+				background-color:lightsalmon;
+				background-size:100% 100%;
+			} */
+
+
+			.flex-1 {
+				width: 280px;
+				height: 300px;
+				margin: 10px;
+				background-color:steelblue;
+			}
+			.p {
+				color: #4682B4;
+/* 				font-weight: bold; */
+				font-size: 30px;
+			}
+			.p1 {
+				color: white;
+/* 				font-weight: bold; */
+				font-size: 30px;
+			}
+			.p-1 {
+				line-height: 30px;
+			}
+			.id {
+				/* text-align: center; */
+				/* width: 250px;
+				height: 280px; */
+				overflow: hidden;
+				margin: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flex-container">
+		    <div class="flex1">
+				<img width=100% height=100% src="img/图片01.png" >
+			</div>
+			<div class="flex-item">
+				<div class="id">
+					<p class="p">商务调查类</p>
+					<p class="p-1">商业情报搜集，市场打假，经济信息调查，员工成度调查。</p>
+				</div>
+				<!-- <p class="p">商务调查类</p>
+				<p class="p-1">商业情报搜集，市场打假，经济信息调查，员工成度调查。</p> -->
+			</div>
+		    <div class="flex1">
+				<img width=100% height=100% src="img/图片02.png" >
+			</div>
+			<div class="flex-item">
+				<div class="id">
+				    <p class="p">个人调查类</p>
+				    <p class="p-1">个人行踪调查，民事诉讼调查，寻人，保险索赔，个人消费维权调查，个人安全保卫等</p>
+				</div>
+			</div>
+			<div class="flex-item">
+				<div class="id">
+				    <p class="p">婚姻家庭类</p>
+			     	<p class="p-1">婚姻忠诚度调查，外遇调查取证，婚姻过错方证固定，挽回婚姻分离第三者，子女课外行踪调查。</p>
+				</div>
+			</div>
+			<div class="flex1">
+				<img width=100% height=100% src="img/图片03.png" >
+			</div>
+			<div class="flex-1">
+				<div class="id">
+				    <p class="p1">社会调查类</p>
+			     	<p class="p-1">保险欺诈调查，特定人群走访，知识产权保护，其他社会活动走访调查。</p>
+				</div>
+			</div>
+			<div class="flex1">
+				<img width=100% height=100% src="img/图片04.png" >
+			</div>
+<!-- 			<div class="flex4">
+				
+			</div> -->
+			<!-- <script type="text/javascript">
+				var con1=document.getElementById("con");
+				var conp=document.getElementById("pOne");
+				
+				conl
+			</script> -->
+		</div>
+
+	</body>
+	
+</html>
